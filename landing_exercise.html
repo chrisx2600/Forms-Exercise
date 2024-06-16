@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>landing_exercise</title>
+</head>
+<body>
+<h1>Your Course Landing Page</h1>
+<form action="/send">
+<div>
+	<label for="title">Course Title</label>
+	<input id="title" name="title"type="text" required>
+</div>
+<div>
+	<label for="desc">Course Description</label>
+</div>
+	<textarea id="desc" name="desc" cols="35" rows="10" required>
+	</textarea>
+<div>	
+<label for="skill">Skill Level</label>
+<select id="skill" name="skill" required>
+	<option value="">Please Select</option>
+	<option value="beginner">Beginner</option>
+	<option value="intermediate">Intermediate</option>
+	<option value="Advanced">Advanced</option>
+	<option value="All">All</option>
+</select>
+</div>
+<div>
+	<label for="pub">Ready to publish the course?</label>
+	<input id="pub"type="checkbox" name="pub" required>
+</div>
+<button>Submit</button>
+</form>	
+</body>
+</html>
